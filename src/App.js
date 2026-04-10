@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 // import './App.css';
 import Navigation from './customer/components/Nevigation/Navigation';
+import Homepage from './customer/pages/HomePage/Homepage';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       
       <Navigation />
     <div>
-      home page
+      <Homepage />
     </div>
     </div>
   );
