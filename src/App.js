@@ -1,16 +1,17 @@
-import logo from './logo.svg';
-// import './App.css';
 import Navigation from './customer/components/Nevigation/Navigation';
 import Homepage from './customer/pages/HomePage/Homepage';
+import Footer from './customer/components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      
       <Navigation />
-    <div>
-      <Homepage />
-    </div>
+
+      <main>
+        <Homepage />
+      </main>
+
+      <Footer />
     </div>
   );
 }
